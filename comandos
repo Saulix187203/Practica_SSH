@@ -11,4 +11,13 @@ git init
 git remote add origin git@github.com:Saulix187203/Practica_SSH.git
 git pull origin main
 
+// proceso para añadir cambios
+git add.
+git commit -m "descripción de los cambios"
+
+// aqui renombro la rama local a main, para concordar con la del remoto
+git branch -M main
+
+// continuamos con el proceso para añador cambios, donde solo subimos los cambios a la rama main
+git push -u origin main
 
