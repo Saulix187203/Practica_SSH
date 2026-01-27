@@ -1,0 +1,14 @@
+// configuramos el usuario y correo global de git en nuestro equipo
+git config --global user.name "Saulix187203"
+git config --global user.email "saulo.ixcoy@gmail.com"
+
+// crear llave SSH desde el origen
+ssh-keygen -t rsa -b 4096 -C "saulo.ixcoy@gmail.com"
+mi contraseña es: $AU|0
+
+// aqui inicio, uso protocolo SSH, doy la contraseña para acceder y jalo el contenido dentro del repositorio de la rama main
+git init
+git remote add origin git@github.com:Saulix187203/Practica_SSH.git
+git pull origin main
+
+
